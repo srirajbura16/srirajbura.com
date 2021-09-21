@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Nav.module.css';
 
-export default function Nav({ children, home }) {
+export default function Nav() {
   return (
     <nav className={styles.nav}>
       <h1>Sriraj Bura</h1>
