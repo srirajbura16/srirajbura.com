@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 5rem;
+  border-bottom: 1px solid gray;
+}
+
+.nav_links {
+  list-style-type: none;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_link {
+}
+
+.nav_link_resume {
+  background-color: transparent;
+  color: green;
+  border: 1px solid green;
+  padding: 0.5rem;
+  border-radius: 24px;
+}
