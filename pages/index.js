@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Layout from '../components/layout';
+import Layout from '../components/Layout';
 import Projects from '../components/Projects';
+import Skills from '../components/Skills';
 
 export default function Home() {
   // section.landing - Name and small description
@@ -16,18 +17,20 @@ export default function Home() {
         <div>
           <h1>Hello, I'm Sriraj.</h1>
           <p>
-            I spent almost a year learning to code and here is what I produced.
+            I spent almost a year learning to code and here are some of the
+            things I produced.
           </p>
         </div>
       </section>
+
       <section>
-        <div className={styles.section_title}>
-          <h1>
-            {' '}
-            <strong>//</strong> Projects
-          </h1>
-        </div>
+        <h1 className="section-title">// Projects</h1>
         <Projects />
+      </section>
+
+      <section>
+        <h1 className="section-title">// Skills</h1>
+        <Skills />
       </section>
     </Layout>
   );
