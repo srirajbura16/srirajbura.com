@@ -1,5 +1,3 @@
-import Head from 'next/head';
-import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Layout from '../components/Layout';
 import Projects from '../components/Projects';
@@ -19,12 +17,12 @@ export default function Home() {
       </section>
 
       <section>
-        <h1 className="section-title">// Projects</h1>
+        <h1 className="section-title">Projects</h1>
         <Projects />
       </section>
 
       <section>
-        <h1 className="section-title">// Skills</h1>
+        <h1 className="section-title">Skills</h1>
         <Skills />
       </section>
     </Layout>
