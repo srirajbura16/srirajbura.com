@@ -8,7 +8,7 @@ export default function Projects() {
     <div className={styles.container}>
       {projects_data.map((project) => {
         return (
-          <div key={project.id} className={styles.project_container}>
+          <div className={styles.project_container}>
             <div className={styles.project_image}>
               <Image
                 src="/images/project.jpeg"
