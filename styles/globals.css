@@ -18,12 +18,16 @@ a {
 .section-title {
   margin-left: 5rem;
   margin-bottom: 4rem;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 @media only screen and (max-width: 790px) {
   .section-title {
     margin-left: 0;
+    text-align: center;
+  }
+
+  .note {
     text-align: center;
   }
 }

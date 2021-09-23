@@ -1,9 +1,10 @@
 .landing {
-  height: 87vh;
+  height: 90vh;
   padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.8rem;
 }
 
 /* ----------------- */
