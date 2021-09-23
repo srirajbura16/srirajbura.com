@@ -1,12 +1,9 @@
 .landing {
-  height: 75vh;
+  height: 87vh;
   padding: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.section_title {
 }
 
 /* ----------------- */

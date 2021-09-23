@@ -26,8 +26,10 @@ export default function Nav() {
         </li>
         <li>
           {' '}
-          <Link href="/">
-            <a className={styles.nav_link_resume}>Resume</a>
+          <Link href="../lib/sample-resume.pdf">
+            <a className={styles.nav_link_resume} target="blank">
+              Resume
+            </a>
           </Link>
         </li>
       </ul>

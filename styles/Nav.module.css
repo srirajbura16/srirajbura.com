@@ -1,20 +1,19 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  padding: 0 5rem;
   border-bottom: 1px solid gray;
+  text-align: center;
 }
 
 .nav_links {
+  display: inline-block;
   list-style-type: none;
   width: 300px;
+  margin-right: 1.1rem;
   display: flex;
   justify-content: space-between;
-}
-
-.nav_link {
 }
 
 .nav_link_resume {

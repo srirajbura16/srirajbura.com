@@ -21,5 +21,9 @@ a {
   font-size: 2rem;
 }
 
-.note {
+@media only screen and (max-width: 790px) {
+  .section-title {
+    margin-left: 0;
+    text-align: center;
+  }
 }
