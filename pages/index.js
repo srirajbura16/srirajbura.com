@@ -6,11 +6,6 @@ import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
 export default function Home() {
-  // section.landing - Name and small description
-  // section.projects - list of projects from projects data(lib folder)
-  // sectoion.skills
-  // sectoion.about
-
   return (
     <Layout home>
       <section className={styles.landing}>
