@@ -15,12 +15,12 @@ export default function Nav() {
         <li>
           {' '}
           <Link href="/">
-            <a className={styles.nav_link}>Skills</a>
+            <a className={styles.nav_link}>About</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a className={styles.nav_link}>About</a>
+            <a className={styles.nav_link}>Contact</a>
           </Link>
         </li>
         <li>

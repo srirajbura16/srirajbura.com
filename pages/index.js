@@ -1,7 +1,8 @@
 import styles from '../styles/Home.module.css';
+import SectionTitle from '../components/SectionTitle';
 import Layout from '../components/Layout';
 import Projects from '../components/Projects';
-import Skills from '../components/Skills';
+import About from '../components/About';
 
 export default function Home() {
   return (
@@ -17,13 +18,14 @@ export default function Home() {
       </section>
 
       <section>
-        <h1 className="section-title">Projects</h1>
+        <SectionTitle chars="Projects" />
+
         <Projects />
       </section>
 
       <section>
-        <h1 className="section-title">Skills</h1>
-        <Skills />
+        <SectionTitle chars="About" />
+        <About />
       </section>
     </Layout>
   );
