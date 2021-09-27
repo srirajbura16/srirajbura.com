@@ -3,6 +3,7 @@ import SectionTitle from '../components/SectionTitle';
 import Layout from '../components/Layout';
 import Projects from '../components/Projects';
 import About from '../components/About';
+import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -26,6 +27,11 @@ export default function Home() {
       <section>
         <SectionTitle chars="About" />
         <About />
+      </section>
+
+      <section>
+        <SectionTitle chars="Contact" />
+        <Contact />
       </section>
     </Layout>
   );
