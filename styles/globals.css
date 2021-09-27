@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -23,7 +27,7 @@ section {
   display: flex;
   justify-content: space-around;
   max-width: 800px;
-  margin: 0 auto 4rem auto;
+  margin: 4rem auto 4rem auto;
   font-weight: bold;
   font-size: 3rem;
   border-bottom: 1px solid black;

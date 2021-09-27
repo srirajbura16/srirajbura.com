@@ -18,18 +18,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section id="projects">
         <SectionTitle chars="Projects" />
 
         <Projects />
       </section>
 
-      <section>
+      <section id="about">
         <SectionTitle chars="About" />
         <About />
       </section>
 
-      <section>
+      <section id="contact">
         <SectionTitle chars="Contact" />
         <Contact />
       </section>

@@ -8,24 +8,24 @@ export default function Nav() {
       <ul className={styles.nav_links}>
         <li>
           {' '}
-          <Link href="/">
+          <Link href="#projects">
             <a className={styles.nav_link}>Projects</a>
           </Link>
         </li>
         <li>
           {' '}
-          <Link href="/">
+          <Link href="#about">
             <a className={styles.nav_link}>About</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="./#contact">
             <a className={styles.nav_link}>Contact</a>
           </Link>
         </li>
         <li>
           {' '}
-          <Link href="../lib/sample-resume.pdf">
+          <Link href="/resume.pdf">
             <a className={styles.nav_link_resume} target="blank">
               Resume
             </a>
