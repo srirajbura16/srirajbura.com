@@ -19,7 +19,7 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link href="./#contact">
+          <Link href="#contact">
             <a className={styles.nav_link}>Contact</a>
           </Link>
         </li>
