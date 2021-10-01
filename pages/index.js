@@ -11,10 +11,7 @@ export default function Home() {
       <section className={styles.landing}>
         <div>
           <h1>Hello, I'm Sriraj.</h1>
-          <p>
-            I spent almost a year learning to code and here are some of the
-            things I produced.
-          </p>
+          <p>Here are some of the things I produced while learning to code.</p>
         </div>
       </section>
 

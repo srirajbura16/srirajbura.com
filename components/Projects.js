@@ -11,7 +11,7 @@ export default function Projects() {
           <div key={project.id} className={styles.project_container}>
             <div className={styles.project_image}>
               <Image
-                src="/images/project.jpeg"
+                src={`/images/${project.img}`}
                 layout="intrinsic"
                 width={480}
                 height={280}
