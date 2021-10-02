@@ -18,9 +18,7 @@ export default function Project({
     <section className={styles.container}>
       <SectionTitle chars={title} />
       <div className={styles.project_container}>
-        {/* <div className={styles.small_description}>{small_description}</div> */}
         <div
-          // className={styles.markdown}
           className="markdown"
           dangerouslySetInnerHTML={{ __html: marked(content) }}
         />

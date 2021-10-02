@@ -17,13 +17,13 @@
   margin-right: 1rem;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 900px) {
   .project_container {
     flex-direction: column;
     padding: 0.5rem;
   }
 
   .project_details {
-    max-width: 460px;
+    max-width: 545px;
   }
 }

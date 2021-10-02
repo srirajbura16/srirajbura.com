@@ -13,8 +13,8 @@ export default function Projects() {
               <Image
                 src={`/images/${project.img}`}
                 layout="intrinsic"
-                width={480}
-                height={280}
+                width={560} //480
+                height={320} //280
               />
             </div>
             <div className={styles.project_details}>
