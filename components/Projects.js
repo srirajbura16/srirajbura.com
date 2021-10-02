@@ -13,6 +13,7 @@ export default function Projects() {
               <Image
                 src={`/images/${project.img}`}
                 layout="intrinsic"
+                alr={project.name}
                 width={560} //480
                 height={320} //280
               />
