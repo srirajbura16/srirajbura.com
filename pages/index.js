@@ -10,8 +10,14 @@ export default function Home() {
     <Layout home>
       <section className={styles.landing}>
         <div>
-          <h1>Hello, I'm Sriraj.</h1>
-          <p>Here are some of the things I produced while learning to code.</p>
+          <h1>
+            Hi, I'm <span className={styles.name}>Sriraj</span>.
+          </h1>
+          <h3>
+            Here are some of the things I{' '}
+            <span className={styles.produced}>produced</span> while{' '}
+            <span className={styles.ltc}>learning to code.</span>
+          </h3>
         </div>
       </section>
 

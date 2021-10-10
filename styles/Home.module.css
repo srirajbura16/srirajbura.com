@@ -7,6 +7,18 @@
   font-size: 1.8rem;
 }
 
+.name {
+  color: #fdc23e;
+}
+
+.produced {
+  color: #e46b3f;
+}
+
+.ltc {
+  color: #c4402a;
+}
+
 @media only screen and (max-width: 790px) {
   .landing {
     font-size: 1.4rem;
