@@ -22,7 +22,7 @@ export default function Projects() {
               <h2>{project.name}</h2>
               <p>{project.small_description}</p>
               <Link href={'projects/' + project.url_name}>
-                <a>→ Read More</a>
+                <a className={styles.read_more}>Read More</a>
               </Link>
             </div>
           </div>
