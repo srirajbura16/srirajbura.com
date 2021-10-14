@@ -1,0 +1,22 @@
+.sectionTitle {
+  display: flex;
+  /* justify-content: space-around; */
+  max-width: 1300px;
+  margin: 4rem auto 4rem auto;
+  font-weight: bold;
+  font-size: 3rem;
+  border-bottom: 1px solid black;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .sectionTitle {
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
