@@ -21,15 +21,14 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="about">
+        <SectionTitle chars="About" />
+        <About />
+      </section>
       <section id="projects">
         <SectionTitle chars="Projects" />
 
         <Projects />
-      </section>
-
-      <section id="about">
-        <SectionTitle chars="About" />
-        <About />
       </section>
 
       <section id="contact">

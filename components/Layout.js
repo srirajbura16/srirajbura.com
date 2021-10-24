@@ -10,7 +10,7 @@ export default function Layout({ children, home }) {
         <title>Sriraj Bura</title>
       </Head>
       <Nav />
-      <main className={styles.children}>{children}</main>
+      <main className={styles.main}>{children}</main>
       <Footer />
     </div>
   );
