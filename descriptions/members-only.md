@@ -7,11 +7,11 @@ Members-Only is an exclusive clubhouse where members can write anonymous posts. 
 
 ![Home Page](/images/members-only.jpeg)
 
-**In this project, I learned to:**
+### Features
 
-- authenticate users securely using [Passpostjs](http://www.passportjs.org/) and [bcryptjs](https://github.com/dcodeIO/bcrypt.js/).
-- Implement and show errors when something goes wrong. (e.g., passwords don't match when signing up)
-- Create middleware to check if a user is authenticated.
+- Authenticate users securely using [Passpostjs](http://www.passportjs.org/) and [bcryptjs](https://github.com/dcodeIO/bcrypt.js/).
+- Show errors when something goes wrong. (e.g., passwords don't match when signing up)
+- Middleware to check if a user is authenticated.
 
 [View Project here.](https://mrgate.herokuapp.com/)
 

@@ -4,7 +4,6 @@ import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
 
-import SectionTitle from '../../components/SectionTitle';
 import { getProject } from '../../lib/helpers';
 
 export default function Project({
@@ -16,8 +15,8 @@ export default function Project({
   const { name, small_description } = project;
   return (
     <section className={styles.container}>
-      <SectionTitle chars={title} />
       <div className={styles.project_container}>
+        <h1 className={styles.title}>{title}</h1>
         <div
           className="markdown"
           dangerouslySetInnerHTML={{ __html: marked(content) }}
