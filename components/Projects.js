@@ -20,7 +20,9 @@ export default function Projects() {
             </div>
             <div className={styles.project_details}>
               <h2>{project.name}</h2>
-              <p>{project.small_description}</p>
+              <p className={styles.small_description}>
+                {project.small_description}
+              </p>
               <Link href={'projects/' + project.url_name}>
                 <a className={styles.read_more}>Read More</a>
               </Link>

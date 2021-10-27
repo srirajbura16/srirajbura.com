@@ -13,7 +13,7 @@ Members-Only is an exclusive clubhouse where members can write anonymous posts. 
 - Show errors when something goes wrong. (e.g., passwords don't match when signing up)
 - Middleware to check if a user is authenticated.
 
-[View Project here.](https://mrgate.herokuapp.com/)
+[View Live](https://mrgate.herokuapp.com/)
 
 Membership password: _**guarma**_ \
 Admin password: _**tahiti**_

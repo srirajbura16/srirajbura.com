@@ -16,6 +16,10 @@
   margin-left: 1.5rem;
 }
 
+.small_description {
+  margin-bottom: 1.2rem;
+}
+
 .read_more {
   background-color: #343434;
   color: white;
