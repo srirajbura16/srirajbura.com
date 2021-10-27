@@ -23,7 +23,7 @@
   border-radius: 10px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 925px) {
   .project_container {
     flex-direction: column;
     padding: 0.5rem;
