@@ -5,7 +5,7 @@ export default function Nav() {
   return (
     <nav className={styles.nav}>
       <div className={styles.nav_items}>
-        <h1>Sriraj Bura</h1>
+        <h1 className={styles.logo}>Sriraj Bura</h1>
         <ul className={styles.nav_links}>
           <li>
             {' '}
