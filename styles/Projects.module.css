@@ -16,8 +16,12 @@
   margin-left: 1.5rem;
 }
 
-.small_description {
-  margin-bottom: 1.2rem;
+.project_name {
+  margin: 0.5rem 0;
+}
+
+.project_description {
+  margin: 0 0 1.5em 0;
 }
 
 .read_more {

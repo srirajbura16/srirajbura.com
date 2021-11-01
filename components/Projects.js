@@ -19,8 +19,8 @@ export default function Projects() {
               />
             </div>
             <div className={styles.project_details}>
-              <h2>{project.name}</h2>
-              <p className={styles.small_description}>
+              <h2 className={styles.project_name}>{project.name}</h2>
+              <p className={styles.project_description}>
                 {project.small_description}
               </p>
               <Link href={'projects/' + project.url_name}>
