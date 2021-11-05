@@ -12,6 +12,7 @@ export default function Projects() {
             <div className={styles.project_image}>
               <Image
                 src={`/images/${project.img}`}
+                priority="eager"
                 layout="intrinsic"
                 alt={project.name}
                 width={560} //480

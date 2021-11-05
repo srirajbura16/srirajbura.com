@@ -38,6 +38,9 @@
     top: 0;
     width: 100%;
     z-index: 1;
+    background-color: hsla(0, 0%, 100%, 0.8);
+
+    backdrop-filter: saturate(180%) blur(6px);
   }
 
   .nav_items {
