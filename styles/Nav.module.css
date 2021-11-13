@@ -7,13 +7,14 @@
   display: flex;
   font-size: 1.4rem;
   justify-content: space-between;
-  padding: 0 2rem 0 2rem;
+  padding: 0 1rem 0 1rem;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .nav_links {
+  width: 15rem;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -21,7 +22,7 @@
 }
 
 .nav_link {
-  padding-right: 1rem;
+  /* padding-right: 1rem; */
 }
 
 .nav_link_resume {
@@ -53,6 +54,10 @@
 
   .logo {
     display: none;
+  }
+
+  .nav_links {
+    width: 13rem;
   }
 }
 
