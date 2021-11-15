@@ -21,10 +21,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section id="about">
+      <section id="about">
         <SectionTitle chars="About" />
         <About />
-      </section> */}
+      </section>
       <section id="projects">
         <SectionTitle chars="Projects" />
 

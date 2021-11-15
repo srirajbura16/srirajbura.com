@@ -15,6 +15,7 @@
 
 .nav_links {
   width: 15rem;
+  /* width: 25rem; */
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -57,7 +58,10 @@
   }
 
   .nav_links {
+    /* 2links */
     width: 13rem;
+    /* 4links */
+    /* width: 25em; */
   }
 }
 
