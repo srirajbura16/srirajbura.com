@@ -10,6 +10,11 @@
   margin-bottom: 2rem;
 }
 
+/* Project Reverse */
+/* .project_container:nth-child(odd) {
+  flex-direction: row-reverse;
+} */
+
 .project_details {
   max-width: 33.33%;
   margin-bottom: 2rem; /**/

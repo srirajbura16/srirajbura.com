@@ -4,6 +4,10 @@ import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
 export default function Contact() {
   return (
     <div className={styles.container}>
+      <p className={styles.message}>
+        As a soon-to-be rookie starting out in the industry, I'm looking forward
+        to working and learning alongside my fellow devs!
+      </p>
       <h2 className={styles.info}>sriraj.bura16@gmail.com</h2>
 
       <div className={styles.social_icons}>

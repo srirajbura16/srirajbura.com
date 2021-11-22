@@ -5,6 +5,11 @@
   flex-direction: column;
 }
 
+.message {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
 .social_icons {
   font-size: 2rem;
   width: 150px;
@@ -15,4 +20,10 @@
 
 .social_icon:hover {
   color: #ff335f;
+}
+
+@media only screen and (max-width: 775px) {
+  .message {
+    text-align: center;
+  }
 }
