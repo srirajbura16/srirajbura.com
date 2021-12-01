@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import marked from 'marked';
+import Layout from '../../components/Layout';
 
 import { getProject } from '../../lib/helpers';
 
@@ -14,15 +15,17 @@ export default function Project({
 }) {
   const { name, small_description } = project;
   return (
-    <section className={styles.container}>
-      <div className={styles.project_container}>
-        <h1 className={styles.title}>{title}</h1>
-        <div
-          className="markdown"
-          dangerouslySetInnerHTML={{ __html: marked(content) }}
-        />
-      </div>
-    </section>
+    <Layout headTitle={'Sriraj Bura - ' + title}>
+      <section className={styles.container}>
+        <div className={styles.project_container}>
+          <h1 className={styles.title}>{title}</h1>
+          <div
+            className="markdown"
+            dangerouslySetInnerHTML={{ __html: marked(content) }}
+          />
+        </div>
+      </section>
+    </Layout>
   );
 }
 
