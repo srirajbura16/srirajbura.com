@@ -4,28 +4,25 @@
   github: 'https://github.com/srirajbura16/members-only'
 ---
 
-Members-Only is an exclusive clubhouse where members can write anonymous posts.
-Inside the clubhouse, members can see who the author of a post is, but outside they can only
-see the story and wonder who wrote it.
+I always wondered how authentication worked ever since I started learning to code. Because it's the processes we don't see when we log in or register. It happens in a flash, But yet so much goes on beyond the scene. In this Messageboard app, I demonstrate my learning using passport and session cookies to implement user authentication.
 
-[View Live](https://mrgate.herokuapp.com/)\
-[View Code](https://github.com/srirajbura16/members-only)
+Members-Only is an exclusive clubhouse where members can write anonymous posts. Inside the clubhouse, members can see who the author of a post is, but outside they can only see the story and wonder who wrote it.
 
-### Tech Stack
+The application is created using the following technologies:
 
----
+- **Node/Express**: Creating the server.
+- **MongoDB**: storing users and posts.
+- **Mongoose**: querying data from MongoDB
+- **Passport**: User Authentication.
+- **Bcrypt**: Hashing user passwords on registration.
+- **Express-Validator**: Validate and Sanitize POST requests.
+- **Pug/Bootstrap**: Frontend.
 
-- **Client:** Pug, Bootstrap
+Along the way, I also learned to:
 
-- **Server:** Node, Express, MongoDB, Moongoose, Passport, Express-Validator
+- show errors to the client.
+- add middleware to check user authentication before responding with protected routes.
+- validate and sanitize user inputs.
 
-### Features
-
----
-
-- User Authentication
-- Become Member and Admin
-
-\
-Membership password: _**guarma**_ \
-Admin password: _**tahiti**_
+You can visit the website <a href="https://mrgate.herokuapp.com/" target="_blank">here</a>. (the start-up is slow due to Heroku's free tier.) To become a member, use code _**guarma**_ and _**tahiti**_ for admin.
+View Code <a href="https://github.com/srirajbura16/members-only" target="_blank">here</a>.
