@@ -15,11 +15,11 @@
   width: 150px;
   display: flex;
   justify-content: space-between;
-  color: #3730a3;
+  color: var(--button-color);
 }
 
 .social_icon:hover {
-  color: #ff335f;
+  color: var(--button-color-hover);
 }
 
 @media only screen and (max-width: 775px) {

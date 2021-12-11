@@ -17,7 +17,7 @@
 
 .project_details {
   max-width: 33.33%;
-  margin-bottom: 2rem; /**/
+  margin-bottom: 2rem;
   margin-left: 1.5rem;
 }
 
@@ -28,6 +28,17 @@
 .project_description {
   margin: 0 0 1.5em 0;
 }
+
+/* .project_links {
+  font-size: 1.7rem;
+  display: flex;
+
+  margin-bottom: 1rem;
+}
+
+.project_links a {
+  margin-right: 3rem;
+} */
 
 .read_more {
   background-color: #343434;
