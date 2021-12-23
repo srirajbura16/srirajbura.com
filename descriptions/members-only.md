@@ -10,13 +10,13 @@ Members-Only is an exclusive clubhouse where members can write anonymous posts. 
 
 The application is created using the following technologies:
 
-- **Node/Express**: Creating the server.
-- **MongoDB**: Storing users and posts.
-- **Mongoose**: Querying data from MongoDB.
-- **Passport**: User Authentication.
-- **Bcrypt**: Hashing user passwords on registration.
-- **Express-Validator**: Validate and Sanitize POST requests.
-- **Pug/Bootstrap**: Frontend.
+- **_Node/Express_**: Creating the server.
+- **_MongoDB_**: Storing users and posts.
+- **_Mongoose_**: Querying data from MongoDB.
+- **_Passport_**: User Authentication.
+- **_Bcrypt_**: Hashing user passwords on registration.
+- **_Express-Validator_**: Validate and Sanitize POST requests.
+- **_Pug/Bootstrap_**: Frontend.
 
 Along the way, I also learned to:
 

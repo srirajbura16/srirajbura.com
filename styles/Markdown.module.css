@@ -1,4 +1,4 @@
-.project_container {
+.markdown {
   /* font-family: 'Roboto Mono', monospace; */
   max-width: 750px;
   margin: 0 auto;
@@ -10,14 +10,29 @@
   padding-bottom: 1.5rem;
 }
 
+.markdown a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.markdown img {
+  /* max-width: 100%;
+  max-height: 100%; */
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
 @media only screen and (max-width: 800px) {
-  .project_container {
+  .markdown {
     font-size: 1.3rem;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .project_container {
+  .markdown {
     font-size: 1rem;
   }
 }

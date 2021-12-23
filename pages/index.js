@@ -7,7 +7,7 @@ import Contact from '../components/Contact';
 
 export default function Home() {
   return (
-    <Layout headTitle={'Sriraj Bura'} nav={true}>
+    <Layout nav={true}>
       <section className={styles.landing}>
         <div>
           <h1>

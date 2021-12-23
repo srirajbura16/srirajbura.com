@@ -50,16 +50,6 @@ a {
 } */
 /* comment */
 
-.markdown a {
-  color: blue;
-  text-decoration: underline;
-}
-
-.markdown img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 * {
   box-sizing: border-box;
 }

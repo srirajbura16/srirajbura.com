@@ -1,9 +1,8 @@
-import styles from '../../styles/Project.module.css';
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
-import marked from 'marked';
 import Layout from '../../components/Layout';
+import Markdown from '../../components/Markdown';
 
 import { getProject } from '../../lib/helpers';
 
@@ -13,17 +12,12 @@ export default function Project({
   project,
   content,
 }) {
-  const { name, small_description } = project;
+  const { name, small_description } = project; //meta data
+
   return (
-    <Layout headTitle={'Sriraj Bura - ' + title}>
-      <section className={styles.container}>
-        <div className={styles.project_container}>
-          <h1 className={styles.title}>{title}</h1>
-          <div
-            className="markdown"
-            dangerouslySetInnerHTML={{ __html: marked(content) }}
-          />
-        </div>
+    <Layout headTitle={title}>
+      <section>
+        <Markdown title={title} content={content} />
       </section>
     </Layout>
   );

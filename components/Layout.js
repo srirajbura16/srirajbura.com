@@ -6,7 +6,7 @@ export default function Layout({ children, headTitle, nav }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{headTitle}</title>
+        <title>{`Sriraj Bura ${headTitle ? '- ' + headTitle : ''}`}</title>
       </Head>
       {nav ? <Nav /> : ''}
       <main className={styles.main}>{children}</main>

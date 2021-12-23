@@ -5,20 +5,22 @@ export default function Nav() {
   return (
     <nav className={styles.nav}>
       <div className={styles.nav_items}>
-        <p className={styles.logo}>Sriraj Bura</p>
+        <Link href="/">
+          <a className={styles.logo}>Sriraj Bura</a>
+        </Link>
         <ul className={styles.nav_links}>
+          <li>
+            {' '}
+            <Link href="/about">
+              <a className={styles.nav_link}>About</a>
+            </Link>
+          </li>
           <li>
             {' '}
             <Link href="#projects">
               <a className={styles.nav_link}>Projects</a>
             </Link>
           </li>
-          {/* <li>
-            {' '}
-            <Link href="#about">
-              <a className={styles.nav_link}>About</a>
-            </Link>
-          </li> */}
           <li>
             <Link href="#contact">
               <a className={styles.nav_link}>Contact</a>
