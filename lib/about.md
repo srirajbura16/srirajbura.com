@@ -13,7 +13,8 @@ Implementing MVP features on a full-stack app called [Marketplace](https://githu
 - [x] Authentication
 - [ ] Image upload
 - [ ] User chat using socket.io
-- Revamping my resume and portfolio
+
+Revamping my resume and portfolio
 
 ## What I’m currently learning
 
