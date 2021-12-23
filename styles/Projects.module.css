@@ -47,6 +47,10 @@
   border-radius: 10px;
 }
 
+.read_more:hover {
+  color: white;
+}
+
 @media only screen and (max-width: 925px) {
   .project_container {
     flex-direction: column;

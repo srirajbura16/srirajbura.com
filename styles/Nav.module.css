@@ -1,26 +1,32 @@
 .nav {
+  padding: 0.8rem 0;
+
   border-bottom: 1px solid gray;
   /* font-family: 'Roboto Mono', monospace; */
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: bold;
 
-  /* overflow: hidden;
+  overflow: hidden;
   background-color: white;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 1;
-  background-color: hsla(0, 0%, 100%, 0.8);
 
-  backdrop-filter: saturate(180%) blur(6px); */
+  /* transparent */
+  /* background-color: hsla(0, 0%, 100%, 0.8); */
+  /* blur */
+  /* backdrop-filter: saturate(180%) blur(6px); */
 }
 
 .logo {
   color: black;
+  padding: 0;
+  margin: 0;
 }
 
 .logo:hover {
-  color: rgb(250, 124, 6);
+  color: black;
 }
 
 .nav_items {
@@ -33,12 +39,14 @@
 }
 
 .nav_links {
-  width: 15rem;
-  /* width: 25rem; */
+  /* width: 15rem; */
+  width: 20rem;
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: space-between;
+  padding: 0;
+  margin: 0rem;
 }
 
 .nav_link_resume {
