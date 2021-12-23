@@ -17,12 +17,12 @@ export default function Nav() {
           </li>
           <li>
             {' '}
-            <Link href="#projects">
+            <Link href="/#projects">
               <a className={styles.nav_link}>Projects</a>
             </Link>
           </li>
           <li>
-            <Link href="#contact">
+            <Link href="/#contact">
               <a className={styles.nav_link}>Contact</a>
             </Link>
           </li>
