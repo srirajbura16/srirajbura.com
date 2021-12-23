@@ -2,7 +2,7 @@
   border-bottom: 1px solid gray;
   /* font-family: 'Roboto Mono', monospace; */
   font-size: 1.2rem;
-  /* font-weight: bold; */
+  font-weight: bold;
 
   /* overflow: hidden;
   background-color: white;
@@ -13,6 +13,14 @@
   background-color: hsla(0, 0%, 100%, 0.8);
 
   backdrop-filter: saturate(180%) blur(6px); */
+}
+
+.logo {
+  color: black;
+}
+
+.logo:hover {
+  color: rgb(250, 124, 6);
 }
 
 .nav_items {
