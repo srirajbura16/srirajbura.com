@@ -13,11 +13,10 @@ title: 'About'
   - [ ] Image upload
   - [ ] User chat using socket.io
 - Revamping my resume and portfolio
-- Setting myself up to apply to jobs this upcoming year.
 
 ## What I’m currently learning
 
-- filling my knowledge gaps in a [public repository](https://www.notion.so/6eb6bfb5c5314ce0b1f136fd4d9b80ab). Topics include web security,
+- Web Securtiy
 - TypeScript
 - DS and Algorithms
 
