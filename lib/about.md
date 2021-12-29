@@ -18,7 +18,6 @@ Revamping my resume and portfolio.
 
 ## What I’m currently learning
 
-- Web Securtiy
 - TypeScript
 - DS and Algorithms
 
