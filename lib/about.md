@@ -11,7 +11,7 @@ I’m a self-taught full-stack developer from Toronto, Canada. I graduated from 
 Implementing MVP features on a full-stack app called [Marketplace](https://github.com/srirajbura16/Marketplace) where users can sell things.
 
 - [x] Authentication
-- [ ] Image upload
+- [x] Image upload
 - [ ] User chat using socket.io
 
 Revamping my resume and portfolio.
