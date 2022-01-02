@@ -32,13 +32,15 @@ export default function Home() {
         <SectionTitle chars="About" />
         <About />
       </section> */}
-      <section id="projects">
+      <span id="projects" />
+      <section>
         <SectionTitle chars="Projects" />
 
         <Projects />
       </section>
 
-      <section id="contact">
+      <span id="contact"></span>
+      <section>
         <SectionTitle chars="Contact" />
         <Contact />
       </section>
