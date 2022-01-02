@@ -29,16 +29,22 @@
   margin: 0 0 1.5em 0;
 }
 
-/* .project_links {
+.project_links {
   font-size: 1.7rem;
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: start;
 
   margin-bottom: 1rem;
+}
+.project_links .github {
+  /* color: red; */
+  margin-top: 0.2rem;
 }
 
 .project_links a {
   margin-right: 3rem;
-} */
+}
 
 .read_more {
   background-color: #343434;
