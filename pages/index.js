@@ -2,7 +2,6 @@ import styles from '../styles/Home.module.css';
 import SectionTitle from '../components/SectionTitle';
 import Layout from '../components/Layout';
 import Projects from '../components/Projects';
-import About from '../components/About';
 import Contact from '../components/Contact';
 import Link from 'next/link';
 
@@ -28,10 +27,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <section id="about">
-        <SectionTitle chars="About" />
-        <About />
-      </section> */}
       <span id="projects" />
       <section>
         <SectionTitle chars="Projects" />
@@ -39,7 +34,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <span id="contact"></span>
+      <span id="contact" />
       <section>
         <SectionTitle chars="Contact" />
         <Contact />
