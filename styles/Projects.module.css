@@ -1,5 +1,6 @@
 .container {
   font-size: 1.2rem;
+  /* background-color: var(--secondary-background); */
 }
 
 .project_container {
@@ -19,6 +20,7 @@
   max-width: 33.33%;
   margin-bottom: 2rem;
   margin-left: 1.5rem;
+  text-align: center;
 }
 
 .project_name {
@@ -32,25 +34,21 @@
 .project_links {
   font-size: 1.7rem;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: start;
-
-  margin-bottom: 1rem;
+  justify-content: space-around;
+  margin-top: 1.5rem;
 }
 .project_links .github {
   /* color: red; */
   margin-top: 0.2rem;
 }
 
-.project_links a {
-  margin-right: 3rem;
-}
-
 .read_more {
+  display: block;
   background-color: #343434;
   color: white;
   padding: 0.8rem;
   border-radius: 10px;
+  margin: 0 auto 2rem auto;
 }
 
 .read_more:hover {

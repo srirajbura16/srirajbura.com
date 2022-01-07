@@ -25,10 +25,14 @@ export default function Projects() {
               <p className={styles.project_description}>
                 {project.small_description}
               </p>
+              {/* {project.read_more ? (
+                <Link href={'projects/' + project.url_name}>
+                  <a className={styles.read_more}>Read More</a>
+                </Link>
+              ) : (
+                ''
+              )} */}
               <div className={styles.project_links}>
-                <a href={`${project.site}`} target="_blank" rel="noreferrer">
-                  Live
-                </a>
                 <a
                   href={`${project.github}`}
                   target="_blank"
@@ -36,6 +40,9 @@ export default function Projects() {
                   className={styles.github}
                 >
                   <FaGithub className={styles.social_icon} />
+                </a>
+                <a href={`${project.site}`} target="_blank" rel="noreferrer">
+                  Live
                 </a>
               </div>
               {project.read_more ? (

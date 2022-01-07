@@ -1,8 +1,8 @@
 .nav {
-  padding: 0.8rem 0;
+  /* color: white; */
 
+  padding: 0.8rem 0;
   border-bottom: 1px solid gray;
-  /* font-family: 'Roboto Mono', monospace; */
   font-size: 1.3rem;
   font-weight: bold;
 
@@ -12,11 +12,6 @@
   top: 0;
   width: 100%;
   z-index: 1;
-
-  /* transparent */
-  /* background-color: hsla(0, 0%, 100%, 0.8); */
-  /* blur */
-  /* backdrop-filter: saturate(180%) blur(6px); */
 }
 
 .logo {
@@ -58,18 +53,6 @@
 }
 
 @media only screen and (max-width: 850px) {
-  /* .nav {
-    overflow: hidden;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    background-color: hsla(0, 0%, 100%, 0.8);
-
-    backdrop-filter: saturate(180%) blur(6px);
-  } */
-
   .nav_items {
     font-size: 1rem;
     padding: 0;

@@ -10,15 +10,11 @@ export default function Home() {
     <Layout nav={true}>
       <section className={styles.landing}>
         <div>
-          <h1>
-            Hi, I'm <span className={styles.name}>Sriraj</span>.
-          </h1>
-          <h3>
-            Here are some of the things I{' '}
-            <span className={styles.produced}>produced</span> while{' '}
-            <span className={styles.ltc}>learning to code.</span>
+          <h1 className={styles.name}>Hi, I'm Sriraj.</h1>
+          <h4 className={styles.intro}>
+            Full-Stack Developer based in Toronto, Canada.
             <br />
-          </h3>
+          </h4>
           <h3 className={styles.aboutme}>
             <Link href="/about">
               <a className={styles.aboutme}>About Me.</a>
@@ -30,7 +26,6 @@ export default function Home() {
       <span id="projects" />
       <section>
         <SectionTitle chars="Projects" />
-
         <Projects />
       </section>
 

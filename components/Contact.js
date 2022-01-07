@@ -16,14 +16,14 @@ export default function Contact() {
           target="_blank"
           rel="noreferrer"
         >
-          <FaGithub className={styles.social_icon} />
+          <FaGithub className={`${styles.social_icon} ${styles.github}`} />
         </a>
         <a
           href="https://www.linkedin.com/in/sriraj-bura-356ab21a5/"
           target="_blank"
           rel="noreferrer"
         >
-          <FaLinkedin className={styles.social_icon} />
+          <FaLinkedin className={`${styles.social_icon} ${styles.linkedin}`} />
         </a>
         {/* <a
           href="https://twitter.com/srirajbura"

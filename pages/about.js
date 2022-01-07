@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import Layout from '../components/Layout';
-import styles from '../styles/About.module.css';
+// import styles from '../styles/About.module.css';
 
 export default function about({ frontmatter, content }) {
   return (
