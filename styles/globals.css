@@ -18,6 +18,9 @@ color: var(--button-color); */
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 strong {
   /* color: #333; */
   color: var(--headline-color);
@@ -36,8 +39,7 @@ body {
   background-color: var(--background-color);
   color: var(--paragraph-color);
   line-height: 1.5;
-  color: #566b78;
-  color: #2b2c34;
+  color: var(--paragraph-color);
 }
 
 html {
