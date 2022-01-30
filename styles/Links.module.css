@@ -4,9 +4,6 @@
   font-size: 1.5rem;
 }
 
-.center {
-  margin: 0 auto;
-}
 .profile_pic {
   max-width: 100%;
   max-height: 100%;
@@ -25,10 +22,27 @@
 
 .link {
   width: 100%;
-  text-align: center;
   padding: 1rem;
   max-width: 90%;
   border: 1px black solid;
   border-radius: 1rem;
   margin-top: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social_icon {
+  margin-right: 1rem;
+}
+
+.twitter {
+  color: var(--icon-twitter);
+}
+.github {
+  color: var(--icon-github);
+}
+.linkedin {
+  color: var(--icon-linkedin);
 }

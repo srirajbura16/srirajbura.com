@@ -10,6 +10,7 @@
 
   --icon-github: black;
   --icon-linkedin: rgb(40, 103, 178);
+  --icon-twitter: rgb(29, 161, 242);
 }
 
 /* background-color: var(--button-background);
@@ -37,7 +38,6 @@ body {
   font-family: 'Helvetica', 'Arial', sans-serif;
   /* font-family: 'Roboto Mono', monospace; */
   background-color: var(--background-color);
-  color: var(--paragraph-color);
   line-height: 1.5;
   color: var(--paragraph-color);
 }
