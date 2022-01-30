@@ -19,19 +19,19 @@ export default function Links() {
       <div className={styles.links}>
         <div className={styles.link}>
           <FaTwitter className={`${styles.social_icon} ${styles.twitter}`} />
-          <Link href="">
+          <Link href="https://twitter.com/SrirajBura">
             <a>Twitter</a>
           </Link>
         </div>
         <div className={styles.link}>
           <FaGithub className={`${styles.social_icon} ${styles.github}`} />
-          <Link href="">
+          <Link href="https://github.com/srirajbura16">
             <a>Github</a>
           </Link>
         </div>
         <div className={styles.link}>
           <FaLinkedin className={`${styles.social_icon} ${styles.linkedin}`} />
-          <Link href="">
+          <Link href="https://www.linkedin.com/in/srirajbura/">
             <a>Linkedin</a>
           </Link>
         </div>
