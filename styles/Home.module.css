@@ -1,36 +1,17 @@
 .landing {
-  /* height: 80vh; */
-  /* text-align: center; */
   padding: 3rem;
-  /* text-align: center; */
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 
-.name {
-  /* text-align: center; */
-}
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 1.5rem;
+  }
 
-.intro {
-  /* max-width: 20rem; */
-  /* text-align: center; */
-}
-
-/* .aboutme {
-  color: var(--button-color);
-  padding: 1rem 0;
-}
-
-.aboutme:hover {
-  color: var(--button-color-hover);
-} */
-
-@media only screen and (max-width: 790px) {
-  .landing {
-    font-size: 1.4rem;
+  .intro {
+    font-size: 1.1rem;
   }
 }
-
-/* ----------------- */

@@ -5,16 +5,10 @@ export default function Nav() {
   return (
     <nav className={styles.nav}>
       <div className={styles.nav_items}>
-        <Link href="/">
+        {/* <Link href="/">
           <a className={styles.logo}>Sriraj Bura</a>
-        </Link>
+        </Link> */}
         <ul className={styles.nav_links}>
-          <li>
-            {' '}
-            <Link href="/about">
-              <a className={styles.nav_link}>About</a>
-            </Link>
-          </li>
           <li>
             {' '}
             <Link href="/#projects">

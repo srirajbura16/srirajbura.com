@@ -10,16 +10,15 @@ export default function Home() {
     <Layout nav={true}>
       <section className={styles.landing}>
         <div>
-          <h1 className={styles.name}>Hi, I'm Sriraj.</h1>
-          <h4 className={styles.intro}>
-            Full-Stack Developer based in Toronto, Canada.
+          <h3 className={styles.name}>Hi, I'm Sriraj.</h3>
+          <p className={styles.intro}>
+            I graduated from High School amid the pandemic and decided not to
+            pursue college. Instead, I spent the year involved in coding
+            communities and learning full-stack development. Currently, I
+            specialize in the MERN stack but am happy to learn new tech and
+            languages.
             <br />
-          </h4>
-          <h3 className={styles.aboutme}>
-            <Link href="/about">
-              <a className={styles.aboutme}>About Me.</a>
-            </Link>
-          </h3>
+          </p>
         </div>
       </section>
 
