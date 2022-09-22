@@ -1,57 +1,42 @@
-import Image from 'next/image';
-import styles from '../styles/Projects.module.css';
-import Link from 'next/link';
-import projects_data from '../lib/projects';
-import { FaGithub } from 'react-icons/fa';
+import Image from "next/image";
+import styles from "../styles/Projects.module.css";
+import Link from "next/link";
+import projects_data from "../lib/projects";
+import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
     <div className={styles.container}>
       {projects_data.map((project) => {
+        const { id, img, name, small_description, github, site } = project;
         return (
-          <div key={project.id} className={styles.project_container}>
+          <div key={id} className={styles.project_container}>
             <div className={styles.project_image}>
               <Image
-                src={`/images/${project.img}`}
+                src={`/images/${img}`}
                 priority="eager"
                 layout="intrinsic"
-                alt={project.name}
+                alt={name}
                 width={560} //480
                 height={320} //280
               />
             </div>
             <div className={styles.project_details}>
-              <h2 className={styles.project_name}>{project.name}</h2>
-              <p className={styles.project_description}>
-                {project.small_description}
-              </p>
-              {/* {project.read_more ? (
-                <Link href={'projects/' + project.url_name}>
-                  <a className={styles.read_more}>Read More</a>
-                </Link>
-              ) : (
-                ''
-              )} */}
+              <h2 className={styles.project_name}>{name}</h2>
+              <p className={styles.project_description}>{small_description}</p>
               <div className={styles.project_links}>
                 <a
-                  href={`${project.github}`}
+                  href={`${github}`}
                   target="_blank"
                   rel="noreferrer"
                   className={styles.github}
                 >
                   <FaGithub className={styles.social_icon} />
                 </a>
-                <a href={`${project.site}`} target="_blank" rel="noreferrer">
+                <a href={`${site}`} target="_blank" rel="noreferrer">
                   Live
                 </a>
               </div>
-              {project.read_more ? (
-                <Link href={'projects/' + project.url_name}>
-                  <a className={styles.read_more}>Read More</a>
-                </Link>
-              ) : (
-                ''
-              )}
             </div>
           </div>
         );

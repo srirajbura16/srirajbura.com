@@ -1,8 +1,8 @@
-import React from 'react';
-import styles from '../styles/Links.module.css';
-import Link from 'next/link';
-import Image from 'next/image';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import React from "react";
+import styles from "../styles/Links.module.css";
+import Link from "next/link";
+import Image from "next/image";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 export default function Links() {
   return (
